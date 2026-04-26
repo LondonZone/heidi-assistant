@@ -1,0 +1,60 @@
+JURISDICTION: AUS_RCH_MELBOURNE
+CONDITION: croup
+INSTITUTION: Royal Children's Hospital Melbourne
+GUIDELINE_NAME: Croup (Laryngotracheobronchitis) Management
+VERSION: 3.2
+LAST_UPDATED: 2024-08-01
+REVIEW_DATE: 2026-08-01
+EVIDENCE_LEVEL: Level 1 - Systematic review
+AGE_RANGE: paediatric (6 months - 6 years typically)
+---
+
+CROUP CLINICAL PRACTICE GUIDELINE
+Royal Children's Hospital Melbourne
+
+DEFINITION
+Croup (laryngotracheobronchitis) is a viral upper respiratory tract infection causing subglottic inflammation. Characterised by barky cough, hoarse voice, inspiratory stridor, and variable respiratory distress. Most commonly parainfluenza virus.
+
+SEVERITY — WESTLEY CROUP SCORE
+Level of consciousness: Normal (0), Altered (5)
+Cyanosis: None (0), With agitation (4), At rest (5)
+Stridor: None (0), With agitation (1), At rest (2)
+Air entry: Normal (0), Decreased (1), Markedly decreased (2)
+Retractions: None (0), Mild (1), Moderate (2), Severe (3)
+
+Score 0-2: Mild | Score 3-7: Moderate | Score 8+: Severe
+
+MANAGEMENT
+
+MILD (Westley 0-2):
+- Dexamethasone 0.15 mg/kg oral, single dose, max 10mg
+- Reassure, discharge with return-to-ED instructions
+
+MODERATE (Westley 3-7):
+- Dexamethasone 0.30 mg/kg oral, single dose, max 10mg
+- Observe 2 hours minimum, reassess at 30 min and 2 hr
+- Consider nebulised adrenaline 0.5ml/kg (max 5ml) 1:1000 if not improving
+
+SEVERE (Westley 8+):
+- Dexamethasone 0.60 mg/kg IV/IM, single dose, max 10mg
+- Nebulised adrenaline 0.5ml/kg (max 5ml) 1:1000 IMMEDIATELY
+- High-flow oxygen if SpO2 <92%
+- Senior clinician review, ICU notification
+- Minimum 4 hour observation
+
+DISCHARGE CRITERIA (Moderate)
+- No stridor at rest for 2 hours
+- Normal work of breathing
+- Tolerating oral fluids
+- SpO2 >95% on room air
+- Parents confident, written return instructions provided
+
+DANGEROUS DIFFERENTIALS TO EXCLUDE
+- Epiglottitis: toxic, drooling, tripod, muffled voice
+- Bacterial tracheitis: high fever, toxic, purulent secretions
+- Foreign body: sudden onset, no prodrome, unilateral wheeze
+- Retropharyngeal abscess: unilateral swelling, trismus
+
+REFERENCES
+RCH Clinical Practice Guideline: Croup v3.2 (August 2024)
+Russell KF et al. Glucocorticoids for croup. Cochrane Database 2011.

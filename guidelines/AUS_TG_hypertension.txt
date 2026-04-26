@@ -1,0 +1,77 @@
+JURISDICTION: AUS_TG
+CONDITION: hypertension
+INSTITUTION: Therapeutic Guidelines Australia
+GUIDELINE_NAME: Cardiovascular — Hypertension in adults
+VERSION: eTG complete (2023)
+LAST_UPDATED: 2023-09-01
+REVIEW_DATE: 2026-09-01
+EVIDENCE_LEVEL: Level 1
+AGE_RANGE: adult (18+)
+---
+
+HYPERTENSION IN ADULTS — THERAPEUTIC GUIDELINES AUSTRALIA
+Australian Heart Foundation aligned
+
+DIAGNOSIS
+Confirm sustained elevation with repeat clinic measurements, ABPM, or HBPM.
+
+Grade 1: 140-159/90-99 mmHg
+Grade 2: 160-179/100-109 mmHg
+Grade 3: ≥180/110 mmHg
+
+Target: <140/90 for most adults. <130/80 for high cardiovascular risk, diabetes, CKD.
+
+TREATMENT INITIATION
+Consider drug therapy alongside lifestyle modification when:
+- Grade 2 or 3 hypertension
+- Grade 1 with absolute CVD risk ≥10% over 5 years
+- Grade 1 with end-organ damage
+
+FIRST-LINE OPTIONS (any one of)
+- ACE inhibitor (perindopril 4-8mg, ramipril 2.5-10mg)
+- ARB (irbesartan 150-300mg, candesartan 8-32mg, telmisartan 40-80mg)
+- Thiazide-like diuretic (indapamide 1.5mg SR or 2.5mg)
+- Dihydropyridine CCB (amlodipine 2.5-10mg, felodipine 5-10mg)
+
+Australian guidelines permit any of four classes as first-line, differing from UK NICE staged approach.
+
+FIRST-LINE SELECTION BY PATIENT FACTORS
+- Young patient without comorbidity: ACEi or ARB
+- Older patient (>65): CCB or thiazide-like diuretic
+- Isolated systolic hypertension: CCB or thiazide
+- Diabetes with proteinuria: ACEi or ARB (renal protection)
+- Heart failure: ACEi/ARB + beta-blocker
+
+COMBINATION THERAPY
+If single agent inadequate at maximum tolerated dose:
+- ACEi or ARB + CCB
+- ACEi or ARB + thiazide-like diuretic
+- CCB + thiazide-like diuretic
+
+Avoid ACEi + ARB combination (increased adverse effects without benefit).
+
+RESISTANT HYPERTENSION
+Three agents at maximum tolerated doses including a diuretic:
+- Add spironolactone 25-50mg daily
+- Refer to cardiology/hypertension specialist
+
+SAFETY CONSIDERATIONS
+
+ACE inhibitors / ARBs:
+- Pregnancy Category D — contraindicated in pregnancy
+- Avoid with potassium supplements, potassium-sparing diuretics
+- Check U&Es, creatinine before and within 1-2 weeks of initiation
+- Dry cough common with ACEi (10-15%) — switch to ARB
+
+NSAIDs:
+- Reduce antihypertensive effect of all classes
+- Increased renal injury risk especially with ACEi/ARB + diuretic combinations
+- Advise paracetamol first-line for analgesia
+
+Beta-blockers:
+- No longer routinely first-line unless specific indication (IHD, heart failure, AF)
+- Avoid in asthma
+
+REFERENCES
+Therapeutic Guidelines Australia: Cardiovascular (2023)
+National Heart Foundation Australia: Guideline for the diagnosis and management of hypertension in adults (2016)

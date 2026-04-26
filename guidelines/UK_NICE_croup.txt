@@ -1,0 +1,64 @@
+JURISDICTION: UK_NICE
+CONDITION: croup
+INSTITUTION: National Institute for Health and Care Excellence (NICE)
+GUIDELINE_NAME: Croup
+VERSION: CKS (Clinical Knowledge Summaries) — Last revision 2023
+LAST_UPDATED: 2023-06-01
+REVIEW_DATE: 2026-06-01
+EVIDENCE_LEVEL: Level 1 - Systematic review
+AGE_RANGE: paediatric (6 months - 6 years typically)
+---
+
+CROUP — NICE CLINICAL KNOWLEDGE SUMMARY
+National Institute for Health and Care Excellence (UK)
+
+DEFINITION
+Croup is a viral laryngotracheobronchitis with characteristic barking cough, hoarse voice, and inspiratory stridor.
+
+SEVERITY ASSESSMENT
+NICE recommends clinical severity assessment based on:
+- Stridor (none, with activity, at rest)
+- Recession (none, mild, moderate, severe)
+- Air entry (normal, decreased, markedly decreased)
+- General appearance (well, distressed, lethargic)
+- Cyanosis (none, pallor, cyanosis)
+
+MILD: Seal-like barking cough, no stridor or recession at rest
+MODERATE: Stridor and recession at rest, no agitation
+SEVERE: Stridor at rest with marked recession, agitation, tachycardia
+
+MANAGEMENT
+
+MILD:
+- Dexamethasone 0.15 mg/kg oral, single dose
+- OR Prednisolone 1 mg/kg oral, single dose (if dexamethasone unavailable)
+- Reassure, provide written safety-netting advice
+
+MODERATE:
+- Dexamethasone 0.15 mg/kg oral, single dose
+- Consider observation in ED for 2-4 hours
+- Nebulised adrenaline 400 micrograms/kg (max 5mg) of 1:1000 if severe symptoms develop
+
+SEVERE:
+- URGENT — 999 if community presentation
+- Dexamethasone 0.15 mg/kg oral OR 0.6 mg/kg IM if unable to tolerate oral
+- Nebulised adrenaline 400 micrograms/kg (max 5mg) 1:1000 IMMEDIATELY
+- High-flow oxygen, pulse oximetry
+- Paediatric referral, consider ICU
+
+NOTE ON UK DOSING
+NICE uses 0.15 mg/kg dexamethasone across severity levels as standard. Higher IM dose (0.6 mg/kg) reserved for severe cases where oral route not feasible.
+
+DISCHARGE
+Can discharge from ED after:
+- Stridor-free at rest for minimum 2-4 hours post-treatment
+- No tachypnoea or respiratory distress
+- Parents able to recognise deterioration
+- Clear safety-netting advice provided
+
+DANGEROUS DIFFERENTIALS
+Epiglottitis, bacterial tracheitis, foreign body aspiration, anaphylaxis.
+
+REFERENCES
+NICE CKS: Croup (2023)
+BNFc (British National Formulary for Children)

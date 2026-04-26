@@ -1,0 +1,56 @@
+JURISDICTION: CAN_CHEO_OTTAWA
+CONDITION: croup
+INSTITUTION: Children's Hospital of Eastern Ontario (CHEO)
+GUIDELINE_NAME: Croup Clinical Pathway
+VERSION: 2.1
+LAST_UPDATED: 2024-03-15
+REVIEW_DATE: 2026-03-15
+EVIDENCE_LEVEL: Level 1 - Systematic review
+AGE_RANGE: paediatric (6 months - 6 years typically)
+---
+
+CROUP CLINICAL PATHWAY
+Children's Hospital of Eastern Ontario (CHEO)
+
+DEFINITION
+Croup is a viral illness causing laryngotracheal inflammation. Clinical hallmarks: barky cough, hoarseness, inspiratory stridor.
+
+SEVERITY ASSESSMENT
+CHEO uses Westley Croup Score (same parameters as international standard):
+Score 0-2: Mild | Score 3-7: Moderate | Score 8+: Severe
+
+NOTE ON CHEO DOSING
+CHEO guideline uses a single higher dexamethasone dose across mild-moderate-severe croup, per more recent evidence favouring higher dosing for consistency and efficacy.
+
+MANAGEMENT
+
+MILD (Westley 0-2):
+- Dexamethasone 0.6 mg/kg oral, single dose, max 10mg
+- Discharge home with return-to-ED instructions
+
+MODERATE (Westley 3-7):
+- Dexamethasone 0.6 mg/kg oral, single dose, max 10mg
+- Observe minimum 2 hours post-dose
+- Reassess severity score every 30 minutes
+- Nebulised epinephrine 0.5 mg/kg (max 5mg) of 1:1000 if stridor at rest persists
+
+SEVERE (Westley 8+):
+- Dexamethasone 0.6 mg/kg PO/IV/IM, single dose, max 10mg
+- Nebulised epinephrine 0.5 mg/kg (max 5mg) 1:1000 IMMEDIATELY
+- Supplemental O2 if SpO2 <92%
+- Notify senior physician, PICU consult
+- Minimum 4 hours observation
+
+DISCHARGE CRITERIA
+- No stridor at rest for >2 hours post-intervention
+- No respiratory distress
+- Adequate oral intake
+- SpO2 ≥94% on room air
+- Parents/caregivers able to recognize deterioration
+
+DANGEROUS DIFFERENTIALS
+Rule out epiglottitis, bacterial tracheitis, foreign body aspiration, retropharyngeal abscess before treating as croup.
+
+REFERENCES
+CHEO Clinical Pathway: Croup (March 2024)
+Bjornson CL et al. NEJM 2004;351:1306-13

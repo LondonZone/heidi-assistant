@@ -1,0 +1,73 @@
+JURISDICTION: UK_NICE
+CONDITION: hypertension
+INSTITUTION: National Institute for Health and Care Excellence (NICE)
+GUIDELINE_NAME: Hypertension in adults — diagnosis and management
+VERSION: NG136
+LAST_UPDATED: 2022-11-18
+REVIEW_DATE: 2027-11-18
+EVIDENCE_LEVEL: Level 1 - Meta-analysis and RCT
+AGE_RANGE: adult (18+)
+---
+
+HYPERTENSION IN ADULTS — NICE NG136
+National Institute for Health and Care Excellence (UK)
+
+DIAGNOSIS
+Confirm with ambulatory blood pressure monitoring (ABPM) or home BP monitoring (HBPM).
+
+Stage 1: Clinic BP ≥140/90 and ABPM/HBPM ≥135/85
+Stage 2: Clinic BP ≥160/100 and ABPM/HBPM ≥150/95
+Stage 3 (severe): Clinic systolic ≥180 OR diastolic ≥120
+
+TREATMENT THRESHOLDS
+Offer drug treatment to:
+- Stage 2 hypertension (any age)
+- Stage 1 hypertension with target organ damage, established CVD, renal disease, diabetes, or 10-year CVD risk ≥10%
+- Age <60 with stage 1 hypertension — consider drug treatment
+
+FIRST-LINE (Stage 1 under age 55, NOT Afro-Caribbean)
+- ACE inhibitor (ramipril, lisinopril, enalapril)
+- OR ARB (candesartan, losartan) if ACEi not tolerated (cough)
+
+FIRST-LINE (Age ≥55 OR Afro-Caribbean any age)
+- Calcium channel blocker (amlodipine, felodipine)
+- OR thiazide-like diuretic (indapamide) if CCB not tolerated
+
+SECOND-LINE (if not controlled)
+- Add whichever first-line you didn't start with (ACEi/ARB + CCB combination)
+
+THIRD-LINE
+- Add thiazide-like diuretic
+
+FOURTH-LINE (resistant hypertension)
+- If K ≤4.5: add spironolactone 25mg daily
+- If K >4.5: add alpha-blocker or beta-blocker
+- Specialist referral
+
+TARGETS
+- Under 80: <140/90 (clinic), <135/85 (ABPM/HBPM)
+- 80 and over: <150/90 (clinic), <145/85 (ABPM/HBPM)
+
+SAFETY CONSIDERATIONS BY DRUG
+
+ACE inhibitors / ARBs:
+- Contraindicated in pregnancy (teratogenic)
+- Caution in bilateral renal artery stenosis
+- Check U&Es, eGFR before starting and within 2 weeks of starting/titration
+- Hyperkalaemia risk — monitor K+
+
+Calcium channel blockers:
+- Caution in heart failure (avoid non-dihydropyridines like verapamil, diltiazem)
+- Ankle oedema common side effect
+
+Thiazide-like diuretics:
+- Hyponatraemia, hypokalaemia risk
+- Gout risk
+- Caution in severe renal impairment
+
+NSAIDs + antihypertensives:
+NSAIDs reduce effectiveness of ACE inhibitors, ARBs, diuretics, beta-blockers. Increase renal injury risk when combined with ACEi/ARB + diuretic (triple whammy). Advise paracetamol for analgesia instead where possible.
+
+REFERENCES
+NICE NG136: Hypertension in adults (2019, updated 2022)
+BNF (British National Formulary)

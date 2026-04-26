@@ -1,0 +1,87 @@
+JURISDICTION: INTERNATIONAL
+CONDITION: anaphylaxis
+INSTITUTION: World Allergy Organization / International consensus
+GUIDELINE_NAME: Anaphylaxis — Emergency Management
+VERSION: WAO 2020 + ASCIA + NICE alignment
+LAST_UPDATED: 2023-10-01
+REVIEW_DATE: 2026-10-01
+EVIDENCE_LEVEL: Level 1 - Systematic review
+AGE_RANGE: all ages
+---
+
+ANAPHYLAXIS — EMERGENCY MANAGEMENT
+International consensus (WAO, ASCIA, Resuscitation Council UK aligned)
+
+DEFINITION
+Acute, potentially life-threatening systemic hypersensitivity reaction. Diagnose clinically — do NOT delay treatment for tests.
+
+DIAGNOSTIC CRITERIA (any one)
+1. Acute onset of illness involving skin/mucosal tissue AND either respiratory compromise OR hypotension
+2. Two or more of: skin/mucosal involvement, respiratory compromise, hypotension, persistent GI symptoms after likely allergen exposure
+3. Hypotension after exposure to known allergen for that patient
+
+IMMEDIATE MANAGEMENT — TIME CRITICAL
+
+STEP 1: CALL FOR HELP
+- Hospital: activate MET/code blue
+- Community: call emergency services (000/911/999/112)
+- DO NOT leave the patient
+
+STEP 2: ADRENALINE (EPINEPHRINE) — FIRST LINE, IMMEDIATELY
+Route: INTRAMUSCULAR — anterolateral thigh (vastus lateralis)
+NEVER subcutaneous. IV only by experienced clinicians in monitored setting.
+
+ADULT (≥12 years or ≥50kg):
+- Adrenaline 500 micrograms IM (0.5mg = 0.5ml of 1:1000)
+
+CHILD 6-12 years (approx 25-50kg):
+- Adrenaline 300 micrograms IM (0.3mg = 0.3ml of 1:1000)
+
+CHILD 6 months - 6 years (approx 7.5-25kg):
+- Adrenaline 150 micrograms IM (0.15mg = 0.15ml of 1:1000)
+
+INFANT <6 months (<7.5kg):
+- Adrenaline 100-150 micrograms IM (0.1-0.15ml of 1:1000)
+- OR 10 micrograms/kg if weight known
+
+REPEAT adrenaline every 5 minutes if no improvement.
+
+STEP 3: POSITIONING
+- Supine with legs elevated (if hypotensive)
+- Sitting upright ONLY if respiratory distress prominent
+- Left lateral if pregnant
+- DO NOT stand patient up (risk of empty ventricle syndrome — sudden cardiac arrest)
+
+STEP 4: HIGH-FLOW OXYGEN
+- 15L/min via non-rebreather mask
+
+STEP 5: IV ACCESS + FLUID RESUSCITATION
+- If hypotensive: IV crystalloid bolus 20ml/kg (paediatric) or 500-1000ml (adult) rapidly
+- Repeat as needed
+
+ADJUNCTS (AFTER adrenaline — not first-line)
+- Antihistamines: H1 blocker (cetirizine oral or chlorphenamine IV)
+  NOTE: No evidence for efficacy in anaphylaxis. Only for urticaria/itching after primary treatment.
+- Corticosteroids: Hydrocortisone 200mg IV adult, 4mg/kg paediatric
+  NOTE: No evidence reduces biphasic reactions. Not first-line.
+- Bronchodilators: Salbutamol nebulised if bronchospasm persists after adrenaline
+
+MONITORING
+- Minimum 6-8 hours observation post-reaction
+- Biphasic reactions occur in ~5% of cases
+- Admit if severe, ongoing symptoms, or multiple adrenaline doses required
+
+DISCHARGE
+- Adrenaline autoinjector prescription (EpiPen, Anapen, or equivalent)
+- Patient education on autoinjector use
+- Allergy clinic referral
+- Written anaphylaxis action plan
+- ASCIA or regional equivalent patient resources
+
+CONTRAINDICATIONS TO ADRENALINE
+NONE in anaphylaxis. Adrenaline is first-line regardless of cardiac history. Withholding adrenaline in anaphylaxis is more dangerous than giving it.
+
+REFERENCES
+World Allergy Organization Anaphylaxis Guidelines (2020)
+ASCIA Acute Management of Anaphylaxis (2023)
+Resuscitation Council UK (2021)
