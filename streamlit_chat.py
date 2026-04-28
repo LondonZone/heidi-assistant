@@ -34,6 +34,7 @@ if 'agent_initialised' not in st.session_state:
 if 'note_analysed' not in st.session_state:
     st.session_state.note_analysed = False
 
+
 # ============================================================
 # SIDEBAR
 # ============================================================
@@ -133,23 +134,70 @@ col_note, col_chat = st.columns([1, 1], gap='large')
 # ---- LEFT COLUMN: Clinical note input ----
 with col_note:
     st.markdown('### Clinical note')
-    st.caption('Paste a clinical note or describe the case. The agent will proactively surface relevant recommendations.')
+    # Initialise note in session state
+    if 'note_content' not in st.session_state:
+        st.session_state['note_content'] = ''
 
-    default_note = st.session_state.pop('_loaded_note', '')
+    # Quick example buttons BEFORE the text area
+    st.markdown('#### Quick examples')
+    col_ex1, col_ex2 = st.columns(2)
+
+    with col_ex1:
+        if st.button('🧒 Croup (paediatric)', use_container_width=True):
+            st.session_state['note_content'] = (
+                'Patient: 3yo, weight 14kg\n'
+                'Presenting with 2-day barky cough, hoarse voice. '
+                'Stridor at rest this morning with mild suprasternal and intercostal recession. '
+                'RR 32, HR 124, SpO2 97% room air, T 37.9C. '
+                'Clear air entry bilaterally. No cyanosis.\n'
+                'No known drug allergies. No current medications.\n'
+                'Assessment: Moderate viral croup.'
+            )
+
+        if st.button('🚨 Anaphylaxis', use_container_width=True):
+            st.session_state['note_content'] = (
+                'Adult patient approx 35yo. '
+                'Collapsed 10 minutes after eating at a restaurant. '
+                'Urticaria over trunk, tongue swelling, audible stridor. '
+                'BP 75/45, HR 132, SpO2 93%. '
+                'Suspected anaphylaxis. Known nut allergy documented.'
+            )
+
+    with col_ex2:
+        if st.button('💊 Hypertension (adult)', use_container_width=True):
+            st.session_state['note_content'] = (
+                'Patient: 58yo male\n'
+                'Stage 1 hypertension confirmed on ABPM (average 148/92).\n'
+                'No CKD, no diabetes, no previous CVD.\n'
+                'Current medications: ibuprofen 400mg PRN for knee osteoarthritis.\n'
+                'No known drug allergies.\n'
+                'Assessment: Considering starting antihypertensive therapy.'
+            )
+
+        if st.button('⚠️ Safety gate demo', use_container_width=True):
+            st.session_state['note_content'] = (
+                'Child with barky cough and stridor at rest. Moderate croup. '
+                'No allergies. No current medications. What is the dose?'
+            )
+
+    # Text area AFTER buttons — reads from session state
+    st.markdown('#### Clinical note')
+    st.caption('Paste a clinical note or use a quick example above.')
+
+    # Text area — no key, value driven entirely by session state
     note_text = st.text_area(
         label='Clinical note',
-        height=280,
-        value=default_note,
+        height=240,
+        value=st.session_state.get('note_content', ''),
         placeholder=(
-            'Example:\n\n'
-            '3-year-old, 14kg. Presents with 2-day barky cough and stridor at rest. '
-            'Mild suprasternal recession. SpO2 97% room air. '
-            'No known allergies, no current medications.\n\n'
-            'Or paste a full clinical note...'
+            'Paste a clinical note or click a quick example above...'
         ),
         label_visibility='collapsed',
     )
 
+    # Update session state when clinician types manually
+    if note_text != st.session_state.get('note_content', ''):
+        st.session_state['note_content'] = note_text
     analyse_disabled = current_jurisdiction is None or not note_text.strip()
 
     if st.button(
@@ -192,57 +240,6 @@ with col_note:
     elif analyse_disabled:
         st.caption('Enter a clinical note above')
 
-    # Quick example buttons
-    st.markdown('#### Quick examples')
-    col_ex1, col_ex2 = st.columns(2)
-
-    with col_ex1:
-        if st.button('🧒 Croup (paediatric)', use_container_width=True):
-            st.session_state['example_note'] = (
-                'Patient: 3yo, weight 14kg\n'
-                'Presenting with 2-day barky cough, hoarse voice. '
-                'Stridor at rest this morning with mild suprasternal and intercostal recession. '
-                'RR 32, HR 124, SpO2 97% room air, T 37.9C. '
-                'Clear air entry bilaterally. No cyanosis.\n'
-                'Assessment: Moderate viral croup.\n'
-                'No known allergies, no current medications.'
-            )
-            st.rerun()
-
-        if st.button('🚨 Anaphylaxis', use_container_width=True):
-            st.session_state['example_note'] = (
-                'Adult patient, approx 35yo. '
-                'Collapsed 10 minutes after eating at a restaurant. '
-                'Urticaria over trunk, tongue swelling, audible stridor. '
-                'BP 75/45, HR 132, SpO2 93%. '
-                'Suspected anaphylaxis — nut allergy documented.'
-            )
-            st.rerun()
-
-    with col_ex2:
-        if st.button('💊 Hypertension (adult)', use_container_width=True):
-            st.session_state['example_note'] = (
-                'Patient: 58yo male\n'
-                'Stage 1 hypertension confirmed on ABPM (average 148/92).\n'
-                'No CKD, no diabetes, no previous CVD.\n'
-                'Current medications: ibuprofen 400mg PRN for knee osteoarthritis.\n'
-                'No known drug allergies.\n'
-                'Considering starting antihypertensive therapy.'
-            )
-            st.rerun()
-
-        if st.button('⚠️ No jurisdiction', use_container_width=True):
-            reset_session()
-            st.session_state.messages = []
-            st.session_state.note_analysed = False
-            st.session_state.agent_initialised = False
-            st.rerun()
-
-    # Load example note if selected
-    if 'example_note' in st.session_state and st.session_state['example_note']:
-        loaded_note = st.session_state.pop('example_note')
-        st.session_state['_loaded_note'] = loaded_note
-        st.rerun()
 
 # ---- RIGHT COLUMN: Conversation ----
 with col_chat:
