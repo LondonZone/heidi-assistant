@@ -57,9 +57,9 @@ with st.sidebar:
     jurisdiction_options = [''] + list(VALID_JURISDICTIONS.keys())
     jurisdiction_labels = {
         '':                  '— Select —',
-        'AUS_RCH_MELBOURNE': '🇦🇺 RCH Melbourne (paediatric)',
+        'AUS_RCH_MELBOURNE': '🇦🇺 RCH Melbourne (pediatric)',
         'AUS_TG':            '🇦🇺 Therapeutic Guidelines AU (adult)',
-        'CAN_CHEO_OTTAWA':   '🇨🇦 CHEO Ottawa (paediatric)',
+        'CAN_CHEO_OTTAWA':   '🇨🇦 CHEO Ottawa (pediatric)',
         'CAN_CPS':           '🇨🇦 Canadian Paediatric Society',
         'UK_NICE':           '🇬🇧 NICE UK',
         'INTERNATIONAL':     '🌐 International consensus',
@@ -97,7 +97,7 @@ with st.sidebar:
     # Available guidelines
     st.markdown('### Available guidelines')
     st.markdown(
-        '**Croup (paediatric)**\n'
+        '**Croup (pediatric)**\n'
         '- 🇦🇺 RCH Melbourne\n'
         '- 🇨🇦 CHEO Ottawa\n'
         '- 🇬🇧 NICE UK\n\n'
@@ -143,7 +143,7 @@ with col_note:
     col_ex1, col_ex2 = st.columns(2)
 
     with col_ex1:
-        if st.button('🧒 Croup (paediatric)', use_container_width=True):
+        if st.button('🧒 Croup (pediatric)', use_container_width=True):
             st.session_state['note_content'] = (
                 'Patient: 3yo, weight 14kg\n'
                 'Presenting with 2-day barky cough, hoarse voice. '
